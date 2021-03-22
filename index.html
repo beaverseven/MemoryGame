@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Colorful Memory!</h1>
+    
+    <p>
+      Welcome! Repeat the pattern that is played to you and see how far you can go! You have 3 tries!
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id = "stopBtn" class="hidden" onclick ="stopGame()"> Stop </button>
+
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="showimage(1);startTone(1)" onmouseup="stopTone();hideimage(1)"><img src="https://cdn.glitch.com/65cb25af-1378-4686-b49e-b27eb5822f5d%2Fclover.jpg?v=1616183629608" id="img1" class="hidden"></button>
+      <button id="button2" onclick="guess(2);" onmousedown="showimage(2);startTone(2)" onmouseup="stopTone();hideimage(2)"><img src="https://cdn.glitch.com/65cb25af-1378-4686-b49e-b27eb5822f5d%2Fsharl.jpg?v=1616182777923" id="img2" class="hidden"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="showimage(3);startTone(3)" onmouseup="stopTone();hideimage(3)"><img src="https://cdn.glitch.com/65cb25af-1378-4686-b49e-b27eb5822f5d%2Ffire.jfif?v=1616182775318" id="img3" class="hidden"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="showimage(4);startTone(4)" onmouseup="stopTone();hideimage(4)"><img src="https://cdn.glitch.com/65cb25af-1378-4686-b49e-b27eb5822f5d%2Ftweety.jpg?v=1616182844930" id="img4" class="hidden"></button>
+      <button id="button5" onclick ="guess(5)" onmousedown="showimage(5);startTone(5)" onmouseup="stopTone();hideimage(5)"><img src="https://cdn.glitch.com/65cb25af-1378-4686-b49e-b27eb5822f5d%2Fwhiterose.jpg?v=1616182780952" id="img5" class="hidden" height="100px" width="100px"></button>
+      
+    </div>
+    
+    
+  </body>
+</html>
