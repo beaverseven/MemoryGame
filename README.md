@@ -4,7 +4,7 @@
 
 Submitted by: **Kamil Piziak**
 
-Time spent: **2** hours spent in total
+Time spent: **5** hours spent in total
 
 Link to project: (https://glitch.com/edit/#!/clumsy-understood-titanosaurus)
 
